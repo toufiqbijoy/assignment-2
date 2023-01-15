@@ -76,7 +76,7 @@ header{
     border-radius: 5px;
 }
 .button:hover{
-   background-color: rgb(215, 111, 8);
+   background-color:rgb(57, 100, 14);
    box-shadow: 5px 5px 5px gray;
 }
 .banner{
@@ -129,7 +129,7 @@ section started here
    border-radius: 5px;
 }
 .buttons:hover{
-   background-color: rgb(125, 62, 16);
+   background-color:rgb(57, 100, 14);
    box-shadow: 5px 5px 5px gray;
 }
 /* ..........
@@ -140,12 +140,16 @@ section 3 started here */
   margin-left: 170px;
  
 }
+/* architech img */
 .architect img{
    height: 700px;
    width: 550px;
 }
+/* arc text */
 .arc-text{
+  
    width: 600px;
+   background-color: rgb(229, 250, 250);
 }
 .section3{
    font-size: 30px;
@@ -160,6 +164,8 @@ margin-top: 50px;
 .h3-1span{
    margin-top: 50px;
 }
+/*......... absolute button style
+.........................  */
 .absolute{
    position: absolute;
    margin-top: 650px;
@@ -171,10 +177,15 @@ margin-top: 50px;
    border-radius: 5px;
    color: white;
 }
+.absolute:hover{
+   background-color:rgb(57, 100, 14);
+}
+/* section 4 style  */
 .section4{
    margin-top: 80px;
    margin-left: 180px;
 }
+/* ssection 5 style */
 .section-5{
    margin-top:70px;
    margin-left: 170px;
@@ -193,6 +204,7 @@ margin-top: 50px;
 }
 .section5:hover{
    background-color: rgba(42, 98, 98, 0.632);
+   box-shadow: 10px 10px 10px gray;
 }
 .section5 img{
    margin-top:20px;
@@ -200,6 +212,7 @@ margin-top: 50px;
 }
 .section5-h1{
    text-align: center;
+  
 }
 .section5-uh1{
    text-align: center;
@@ -210,6 +223,7 @@ margin-top: 50px;
 .section-6 h1{
    text-align: center;
    font-family: arial;
+   background-color:chartreuse;
 }
 .section-6 article{
    margin-top: 20px;
@@ -223,6 +237,7 @@ margin-top: 50px;
    margin: 40px;
    filter: grayscale(100%);
 }
+/* footer */
 footer{
    
    position: relative;
